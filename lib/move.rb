@@ -11,6 +11,6 @@ def input_to_index(position)
   slot = -1 + position.to_i
 end
 
-def move(array,slot,value)
+def move(array,slot,value = "X")
   array[slot] = value
 end
