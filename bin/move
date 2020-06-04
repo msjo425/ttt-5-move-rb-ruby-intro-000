@@ -11,4 +11,4 @@ input = gets.strip
 
 input_to_index(input)
 move(board, slot)
-display_board()
+display_board(board)
