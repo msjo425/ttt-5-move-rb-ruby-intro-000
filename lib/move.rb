@@ -11,4 +11,4 @@ def input_to_index(position)
   slot = -1 + position.to_I
 end
 
-def move()
+def move(array)
